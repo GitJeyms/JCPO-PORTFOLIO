@@ -9,10 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 :root{
-    --bg-color: #996633;
-    --second-bg-color: #00FFFF;
-    --text-color: #CCCC99;
-    --main-color: #663300;
+    --bg-color: linear-gradient(to bottom right, #C33764, #1D2671);
+    --second-bg-color: #000066;
+    --text-color: #93A5CF ;
+    --main-color: #0099ff;
 }
 html{
     font-size: 62.5%;
@@ -31,9 +31,9 @@ section{
     top: 0;
     left: 0;
     width: 100%;
-    border-bottom: 2px solid burlywood;
-    box-shadow: 0 0 5px  burlywood,
-                0 0 25px burlywood;
+    border-bottom: 1px solid #4E65FF;
+    box-shadow: 0 0 5px  #92EFFD,
+                0 0 25px #4E65FF;
     padding: 2rem 9%;
     background: var(--bg-color);
     display: flex;
@@ -43,9 +43,10 @@ section{
 }
 .logo{
     font-size: 2.5rem;
-    color: var(--text-color);
+    font-family: 'Cedarville Cursive'; font-size: 22px;
+    color:  #A9F1DF;
     font-weight: 600;
-    cursor: default;
+    cursor: default;   
 }
 .navbar a {
     font-size: 1.7rem;
@@ -55,7 +56,7 @@ section{
 }
 .navbar a:hover,
 .navbar a.active{
-    color: var(--main-color);
+    color: #0099ff;
 }
 #menu-icon{
     font-size: 3.6 rem;
@@ -68,15 +69,15 @@ section{
     align-items: center;
 }
 .home-img img{
-    max-width: 100%;
-    border: 2px solid khaki;
-    box-shadow: 0 0 5px  khaki,
-                0 0 25px khaki;
+    width: 75%;
+    border: 1px solid #A1C4FD ;
+    box-shadow: 0 0 5px  #C2E9FB,
+                0 0 25px #A1C4FD ;
     height: auto;
-    border-radius: 5em;
-    
-    
-}
+    border-top-left-radius: 75%;
+    border-bottom-right-radius: 75%;
+}    
+ 
 .home-content h3{
     font-size: 3.2rem;
     font-weight: 700;
@@ -85,7 +86,7 @@ section{
     margin-bottom: 2rem;
 }
 span{
-    color: var(--main-color);
+    color: #E4EfE9;
 }
 .home-content h1{
     font-size: 5.6rem;
@@ -126,5 +127,5 @@ span{
     transition: .5 ease;
 }
 .btn:hover{
-    box-shadow: none;
+    box-shadow: none;   
 }
